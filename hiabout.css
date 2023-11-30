@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1,200&display=swap');
+  .navigation{
+    width: auto;
+background-color: rgb(4, 0, 0);
+display: flex;
+align-items: center;
+    }
+h1{
+margin: 10px 17px 10px;
+padding: 0%;
+font-size: 20px;
+font-family: serif;
+color: white;
+}
+.list, li, a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+        display: flex;
+    margin: 5px 7px;
+}
+/* contents editing */
+.content{
+    background-color: black;
+    height: auto;
+    position: sticky;
+}
+.image{
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 10rem; 
+}
+.prologo{
+    height: 110px;
+    border-radius: 60px;
+    border: solid rgb(88,88,88) 4px;
+}
+.Writerpen{
+    display: flex;
+    height: 15rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid rgb(173 5 70) 3px;
+}
+.penwrite{
+    color: rgb(236, 55, 10);
+    font-size: 20px;
+    margin: auto;
+}
+.declare{
+    color: white;
+    font-size: 22px;
+    text-decoration-line: underline;
+}
+
+
+.sociico{
+    display: flex;
+    height: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.sico1{
+    height: 30px;
+    margin: 0px 5px;
+}
+.sico2{
+    height: 30px;
+    margin: 0px 5px;
+}
+.sico3{
+    height: 30px;
+    margin: 0px 5px;
+}
+.sico4{
+    height: 30px;
+    margin: 0px 5px;
+}
+.sico5{
+    height: 30px;
+    margin: 0px 5px;
+}
+
+.tag{
+    font-family: 'Poppins', sans-serif;
+    margin: 38px;
+    font-size: 13px;
+    font-weight:400
+}
+.foot{
+    width: auto;
+    background-color: #131326;
+    color: white;
+    height: 3rem;
+    display: flex;
+    margin: 0px 1px;
+    position: sticky;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 600px){
+    .tag{
+        font-family: 'Poppins', sans-serif;
+        margin: 11px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .sociico{
+        display: flex;
+        height: 24px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 12px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .tag{
+        font-family: 'Poppins', sans-serif;
+        margin: 11px;
+        font-size: 8px;
+        font-weight: 600;
+    }
+    .sociico{
+        display: flex;
+        height: 24px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 12px;
+    }
+}
+@media only screen and (max-width: 430px){
+    .nav{
+        width: auto;
+        background-color: rgb(4, 0, 0);
+        display: flex;
+        align-items: center;
+    }
+h1{
+    margin: 10px 15px 10px;
+    padding: 0%;
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+}
+.list, li, a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    display: flex;
+    margin: 5px 3px;}
+.sociico{display: flex;
+    height: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+.sico1{
+    height: 20px;
+    margin: 0px 1px;
+}
+.sico2{
+    height: 20px;
+    margin: 0px 2px;
+}
+.sico3{
+    height: 20px;
+    margin: 0px 2px;
+}
+.sico4{
+    height: 20px;
+    margin: 0px 0px;
+}
+.sico5{
+    height: 20px;
+    margin: 0px 3px;
+}
+}
+@media only screen and (max-width: 320px){
+    .content {
+        background-color: black;
+        height: fit-content;
+        position: sticky;
+    }
+    
+    .navigation {
+        width: auto;
+        background-color: rgb(4, 0, 0);
+        display: flex;
+        align-items: center;
+    }
+    h1 {
+        margin: 14px 7px 10px;
+        padding: 0%;
+        font-size: 20px;
+        font-family: serif;
+        color: white;
+    }
+    .penwrite {
+        color: rgb(236, 55, 10);
+        font-size: 13px;
+        margin: auto;
+    }
+    .tag{
+        font-family: 'Poppins', sans-serif;
+        margin: 11px;
+        font-size: 8px;
+        font-weight: 600;
+    }
+
+    .sociico{
+        display: flex;
+        height: 24px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 12px;
+    }
+}
+@media only screen and (max-width: 430px){
+    .nav{
+        width: auto;
+        background-color: rgb(4, 0, 0);
+        display: flex;
+        align-items: center;
+    }
+h1{
+        margin: 14px 7px 10px;
+        padding: 0%;
+        font-size: 20px;
+        font-family: serif;
+        color: white;
+}
+.list, li, a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    display: flex;
+    margin: 0px 2px;}
+    .penwrite {
+        color: rgb(236, 55, 10);
+        font-size: 13px;
+        margin: auto;
+    }
+.sociico{display: flex;
+    font-family: 'Poppins', sans-serif;
+    margin: 11px;
+    font-size: 6px;
+    font-weight: 600;
+}
+.sico1{
+    height: 20px;
+    margin: 0px 1px;
+}
+.sico2{
+    height: 20px;
+    margin: 0px 2px;
+}
+.sico3{
+    height: 20px;
+    margin: 0px 2px;
+}
+.sico4{
+    height: 20px;
+    margin: 0px 0px;
+}
+.sico5{
+    height: 20px;
+    margin: 0px 3px;
+}
+
+}
+.quotes{
+    color: chartreuse;
+}
