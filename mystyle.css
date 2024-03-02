@@ -53,10 +53,45 @@ color: white;
     margin: auto;
 }
 .Greeat{
+    margin: 6% 1% 3% 38%;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100px;
+    position: relative;
+    width: 300px;
+    height: 400px;
 }
+.greet-text{
+    color: white;
+    font-size: 130%;
+}
+.Greeat:before {
+content: '';
+position: absolute;
+top: -2px;
+left: -2px;
+right: -2px;
+bottom: -2px;
+background: black;
+z-index: -1;
+}
+.Greeat:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+    }
+    .Greeat:before,
+    .Greeat:after{
+background: linear-gradient(235deg, #efcb0b, #131326, #ff0081);
+    }
 .greet{
     border: solid gold;
 }
@@ -160,6 +195,42 @@ color: white;
         align-items: center;
         margin: 12px;
     }
+    .Greeat{
+        margin: 6% 1% 3% 13%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100px;
+        position: relative;
+        width: 300px;
+        height: 400px;
+    }
+    .Greeat:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: black;
+    z-index: -1;
+    }
+    .Greeat:after {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        background: #fff;
+        z-index: -2;
+        filter: blur(40px);
+        }
+        .Greeat:before,
+        .Greeat:after{
+    background: linear-gradient(235deg, #efcb0b, #131326, #ff0081);
+        }
 }
 @media only screen and (max-width: 600px){
     .tag{
@@ -176,6 +247,42 @@ color: white;
         align-items: center;
         margin: 12px;
     }
+    .Greeat{
+        margin: 6% 1% 3% 13%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100px;
+        position: relative;
+        width: 300px;
+        height: 400px;
+    }
+    .Greeat:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: black;
+    z-index: -1;
+    }
+    .Greeat:after {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        background: #fff;
+        z-index: -2;
+        filter: blur(40px);
+        }
+        .Greeat:before,
+        .Greeat:after{
+    background: linear-gradient(235deg, #efcb0b, #131326, #ff0081);
+        }
 }
 @media only screen and (max-width: 430px){
     .nav{
@@ -228,6 +335,42 @@ h1{
     height: 263px;
     border: solid gold;
 }
+.Greeat{
+    margin: 6% 1% 3% 13%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+.Greeat:before {
+content: '';
+position: absolute;
+top: -2px;
+left: -2px;
+right: -2px;
+bottom: -2px;
+background: black;
+z-index: -1;
+}
+.Greeat:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+    }
+    .Greeat:before,
+    .Greeat:after{
+background: linear-gradient(235deg, #efcb0b, #131326, #ff0081);
+    }
 }
 @media only screen and (max-width: 320px){
     .content {
@@ -270,8 +413,80 @@ h1{
         align-items: center;
         margin: 12px;
     }
+    .Greeat{
+        margin: 6% 1% 3% 13%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100px;
+        position: relative;
+        width: 300px;
+        height: 400px;
+    }
+    .Greeat:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: black;
+    z-index: -1;
+    }
+    .Greeat:after {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        background: #fff;
+        z-index: -2;
+        filter: blur(40px);
+        }
+        .Greeat:before,
+        .Greeat:after{
+    background: linear-gradient(235deg, #efcb0b, #131326, #ff0081);
+        }
 }
 @media only screen and (max-width: 430px){
+    .Greeat{
+        margin: 6% 1% 3% 13%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100px;
+        position: relative;
+        width: 300px;
+        height: 400px;
+    }
+    .Greeat:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: black;
+    z-index: -1;
+    }
+    .Greeat:after {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        background: #fff;
+        z-index: -2;
+        filter: blur(40px);
+        }
+        .Greeat:before,
+        .Greeat:after{
+    background: linear-gradient(235deg, #efcb0b, #131326, #ff0081);
+        }
     .nav{
         width: auto;
         background-color: rgb(4, 0, 0);
