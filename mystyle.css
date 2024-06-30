@@ -366,7 +366,7 @@ html, body {
     margin: -2px 3px 131px 36px;
     max-width: 35%;
     width: 85px;
-    animation: rotate 4s linear infinite;  
+       animation: rotate 4s linear infinite;;  
   }
   
 
